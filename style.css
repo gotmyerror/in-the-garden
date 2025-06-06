@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+    color: #ffe81f;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+h1 {
+    margin: 0;
+}
+
+.crawl {
+    perspective: 400px;
+    text-align: center;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+
+.crawl p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.episode {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
